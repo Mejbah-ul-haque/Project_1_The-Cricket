@@ -653,9 +653,9 @@
 
 #vertical-short-xs h6{
  font-size: .9rem;
- font-weight:900;
+ font-weight:600;
  line-height: normal;
- color: rgb(31, 30, 30);
+ color: #000;
 }
 
 #vertical-short-xs h6:hover{
