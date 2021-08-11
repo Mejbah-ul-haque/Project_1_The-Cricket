@@ -541,8 +541,8 @@
  #vertical-short{
   border-style: none;
   background: #fff;
-  border: 3px solid #e4e4e4;
-  height: 255px;
+
+  
   padding-bottom: 0;
 }
 
@@ -571,19 +571,19 @@
 }
 @media (min-width: 1367px){
   #vertical-short{
-    height: 287px;
+    height: px;
   }
 }
 
 @media (max-width: 280px){
   #vertical-short h6{
-    font-size: 13px;
+    font-size: px;
    }
 }
 
 @media (max-width: 576px){
   #vertical-short{
-  height: 200px;
+  height: px;
  }
  #vertical-short .card-body{
    padding-bottom: 3px;
@@ -608,7 +608,7 @@
     font-size: 15px;
    }
    #vertical-short{
-    height: 210px;
+    height: px;
   }
 }
 @media (max-width: 1366px){
@@ -628,7 +628,7 @@
 
 @media (max-width: 576px){
   #vertical-short{
-  height: 170px;
+  height: px;
  }
  #vertical-short .card-body{
    padding-bottom: 3px;
