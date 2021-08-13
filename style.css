@@ -1594,6 +1594,11 @@ text-decoration: none;
   background-color: #052962;
 }
 
+#overlay-long h4{
+  font-size: 1.3em;
+  color: white;
+  font-weight:500;
+}
 #overlay-long h4:hover{
  color: yellow;
 }
@@ -1605,6 +1610,16 @@ text-decoration: none;
  #source-line{
    background-color: #052962;
  }
+ #source-line p{
+   color:white;
+ }
+ #source-line p span{
+   color: #999;
+ }
+
+
+
+
 
  /* Footer */
  .footer{
