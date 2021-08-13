@@ -953,8 +953,13 @@ text-decoration: none;
   color: blue;
   text-decoration: none;
 }
+
+.carousel-item .card{
+  background-color: #052962;
+}
+
 .carousel-img {
- background-color: #ccc;
+ background-color: #052962;
 }
 
 .carousel-img{
@@ -979,6 +984,14 @@ text-decoration: none;
   #category-top-text:hover{
     color: blue;
   }
+
+  #lead-overlay-shadow{
+    /* mask-image: url(img/shakib.png);
+    -webkit-mask-image: url(img/shakib.png); */
+    mask-image: linear-gradient(to right, transparent 1%, black 50% );
+    -webkit-mask-image: linear-gradient(to right, transparent 1%, black 50% );
+  }
+
 
 @media (max-width: 1024px){
   .carousel-item-anchor h3 {
@@ -1568,6 +1581,13 @@ text-decoration: none;
   -webkit-mask-image: url(img/shakib.png); */
   mask-image: linear-gradient(to top, transparent 15%, black 50% );
   -webkit-mask-image: linear-gradient(to top, transparent 15%, black 50% );
+}
+
+#img-shadow{
+  /* mask-image: url(img/shakib.png);
+  -webkit-mask-image: url(img/shakib.png); */
+  mask-image: linear-gradient(to top, transparent 5%, black 75% );
+  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 75% );
 }
 
 /* overlay-long */
