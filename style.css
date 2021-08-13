@@ -154,7 +154,7 @@
   /* super-lead */
 
   #super-lead:hover{
-    background-color: #015555;
+    background-color: #01263a;
   }
 
   #bg-body h5{
@@ -547,7 +547,7 @@
 }
 
 #vertical-short h6{
- font-size: 1.1rem;
+ font-size: 2rem;
  font-weight:900;
  line-height: normal;
  color: rgb(31, 30, 30);
@@ -559,7 +559,7 @@
 
 #vertical-short .card-body{
   background: var(--light);
-  padding-bottom: 0;
+  padding: 25px;
 }
 
 #vertical-short a{
@@ -616,7 +616,7 @@
 }
 @media (min-width: 1367px){
   #vertical-short h6{
-    font-size: 18px;
+    font-size: 16px;
    }
 }
 
@@ -1346,8 +1346,15 @@ text-decoration: none;
 
 .landing-page{
   border-style: none;
-  margin: 0px 60px;
+  margin: 0px 50px 0px 100px; 
 }
+.inside-pic{
+  position: relative;
+  bottom: 100px;
+  background-color: #fff;
+  padding: 50px;
+}
+
 #w-author{
   display: block;
 }
@@ -1393,7 +1400,13 @@ text-decoration: none;
   font-size: 1.1rem;
   line-height: 1.5rem;
   letter-spacing: normal;
-  margin-left: 100px;
+  
+}
+
+.plain-text span{
+  font-size: 40px;
+  font-weight: 900;
+  color: red;
 }
 #landing-sidebar{
   background-color: #052962;
@@ -1549,12 +1562,30 @@ text-decoration: none;
   }
 }
 
+/* img-overlay-shadow */
+#img-overlay-shadow{
+  /* mask-image: url(img/shakib.png);
+  -webkit-mask-image: url(img/shakib.png); */
+  mask-image: linear-gradient(to top, transparent 15%, black 50% );
+  -webkit-mask-image: linear-gradient(to top, transparent 15%, black 50% );
+}
+
+/* overlay-long */
+
+#overlay-long h4:hover{
+ color: yellow;
+}
+
+#overlay-long h2:hover{
+  color: yellow;
+ }
 
  /* Footer */
  .footer{
    margin-top: 3rem;
   /* background: url(img/bangladesh1.jpg); */
-  background: rgb(191, 191, 206);
+  /* background: rgb(191, 191, 206); */
+  background-color: #02193d;
   box-shadow: 5px 1px 5px 2px;
  }
 
@@ -1569,10 +1600,11 @@ text-decoration: none;
    color: #052962;
  }
  .footer h6{
-   font-size: 1.1rem;
-   font-weight: 700;
-   color: #000;
+   font-size: .9rem;
+   font-weight: 500;
+   color: rgb(250, 248, 248);
  }
+
 
  @media (max-width:992px){
    #footer-speech{
