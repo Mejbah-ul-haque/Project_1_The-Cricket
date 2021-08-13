@@ -1583,14 +1583,16 @@ text-decoration: none;
   -webkit-mask-image: linear-gradient(to top, transparent 15%, black 50% );
 }
 
+/* Overlay long */
+
 #img-shadow{
-  /* mask-image: url(img/shakib.png);
-  -webkit-mask-image: url(img/shakib.png); */
   mask-image: linear-gradient(to top, transparent 5%, black 75% );
   -webkit-mask-image: linear-gradient(to top, transparent 5%, black 75% );
 }
 
-/* overlay-long */
+#overlay-long{
+  background-color: #052962;
+}
 
 #overlay-long h4:hover{
  color: yellow;
@@ -1598,6 +1600,10 @@ text-decoration: none;
 
 #overlay-long h2:hover{
   color: yellow;
+ }
+
+ #source-line{
+   background-color: #052962;
  }
 
  /* Footer */
