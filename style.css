@@ -1692,6 +1692,37 @@ text-decoration: none;
   color:yellow;
 }
 
+
+/* woimen-cricket */
+
+.woimen-cricket{
+  background-image: url(img/women.jpg); 
+  background-size: 2500px;
+  background-repeat: no-repeat; 
+  background-position: top; 
+  top: 0px;
+
+}
+
+.women-headlines{
+  height: px;
+}
+
+.women-headlines a {
+  text-decoration: none;
+}
+
+.women-headlines{
+  font-size: 40px; 
+  color: #fff; 
+  text-decoration: none; 
+  text-shadow: 2px 2px 5px black;
+}
+.women-headlines h4:hover{
+  background-color: #01263a;
+  color: yellow;
+}
+
  /* Footer */
  .footer{
    margin-top: 3rem;
