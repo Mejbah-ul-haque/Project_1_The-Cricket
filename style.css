@@ -319,7 +319,7 @@
 #extra-short-1:hover{
   box-shadow: 0px 0px 10px #000;
   border-bottom: 4px solid yellow;
-  background-color: rgb(58, 58, 56);
+  background-color: #002233;
 }
 
 #extra-short-1 h5{
@@ -378,7 +378,8 @@
    border-style: none;
   text-align: left;
   background: var(--light);
-  border-bottom: 5px solid rgba(53, 128, 53, 0.534);
+  border-bottom: 3px solid rgba(53, 128, 53, 0.534);
+  margin-top: 40px;
 }
 
 #horizontal-lead h5{
@@ -536,18 +537,20 @@
 
 
 
+ 
+
  /* vertical-short */
 
  #vertical-short{
   border-style: none;
   background: #fff;
-
-  
+  border: 3px solid #e4e4e4;
+  height: 255px;
   padding-bottom: 0;
 }
 
 #vertical-short h6{
- font-size: 2rem;
+ font-size: 1.1rem;
  font-weight:900;
  line-height: normal;
  color: rgb(31, 30, 30);
@@ -559,7 +562,7 @@
 
 #vertical-short .card-body{
   background: var(--light);
-  padding: 25px;
+  padding-bottom: 0;
 }
 
 #vertical-short a{
@@ -571,19 +574,19 @@
 }
 @media (min-width: 1367px){
   #vertical-short{
-    height: px;
+    height: 287px;
   }
 }
 
 @media (max-width: 280px){
   #vertical-short h6{
-    font-size: px;
+    font-size: 13px;
    }
 }
 
 @media (max-width: 576px){
   #vertical-short{
-  height: px;
+  height: 200px;
  }
  #vertical-short .card-body{
    padding-bottom: 3px;
@@ -608,7 +611,7 @@
     font-size: 15px;
    }
    #vertical-short{
-    height: px;
+    height: 210px;
   }
 }
 @media (max-width: 1366px){
@@ -616,7 +619,7 @@
 }
 @media (min-width: 1367px){
   #vertical-short h6{
-    font-size: 16px;
+    font-size: 18px;
    }
 }
 
@@ -628,7 +631,7 @@
 
 @media (max-width: 576px){
   #vertical-short{
-  height: px;
+  height: 170px;
  }
  #vertical-short .card-body{
    padding-bottom: 3px;
@@ -1576,14 +1579,16 @@ text-decoration: none;
 }
 
 /* img-overlay-shadow */
+
+
+/* Overlay long */
+
 #img-overlay-shadow{
   /* mask-image: url(img/shakib.png);
   -webkit-mask-image: url(img/shakib.png); */
-  mask-image: linear-gradient(to top, transparent 15%, black 50% );
-  -webkit-mask-image: linear-gradient(to top, transparent 15%, black 50% );
+  mask-image: linear-gradient(to top, transparent 5%, black 50% );
+  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50% );
 }
-
-/* Overlay long */
 
 #img-shadow{
   mask-image: linear-gradient(to top, transparent 5%, black 75% );
@@ -1591,7 +1596,19 @@ text-decoration: none;
 }
 
 #overlay-long{
+  border-style: none;
   background-color: #052962;
+}
+
+#overlay-long:hover{
+  background-color: #002233;
+}
+
+#overlay-long a{
+  text-decoration: none;
+}
+.overlay-long{
+  padding-top: 70px;
 }
 
 #overlay-long h4{
@@ -1603,8 +1620,20 @@ text-decoration: none;
  color: yellow;
 }
 
+#overlay-long h2{
+  font-size: 2em;
+  color: white;
+}
+
 #overlay-long h2:hover{
   color: yellow;
+ }
+
+ #overlay-long p{
+   color: white;
+ }
+ #overlay-long p:hover{
+   color:yellow;
  }
 
  #source-line{
@@ -1618,8 +1647,50 @@ text-decoration: none;
  }
 
 
+ /* image-lead */
 
+.image--lead{
+  position: relative;
+  width: 657px;
+  height: 407px;
+  background-color: #052962;
+}
 
+.image--lead:hover{
+  background-color: #002233;
+}
+
+.image--img{
+  display: block;
+  width: 100%;
+  mask-image: linear-gradient(to top, transparent 5%, black 50% );
+  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50% );
+}
+
+.image--overlay{
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
+  width: 100%;
+  height: 100px;
+  
+  color: white;
+  font-family: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .image--title{
+  font-size: 2.3em;
+  font-weight: bold;
+
+}
+
+.image--title:hover{
+  color:yellow;
+}
 
  /* Footer */
  .footer{
