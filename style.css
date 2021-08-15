@@ -114,7 +114,6 @@
 
 
 
-
  .btn {
      background: var(--dark);
      color: var(--light);
@@ -261,21 +260,44 @@
   font-size: 1.2rem; 
   color: #22f8f8; 
   background:#052962; 
-  font-weight: 600;
+  font-weight: 500;
 }
 
+#button-small{
+  font-size: 1.1rem; 
+  color: #f8fafa; 
+  background:#7e7d7d; 
+  font-weight: 500;
+  box-shadow: 0px 5px 10px rgba(14, 13, 13, 0.8); 
+}
+#button-small:hover{
+  background-color: #002233;
+  color: yellowgreen;
+}
 
 /* Button-1 */
 #button-1{
   box-shadow: 0px 5px 10px rgba(14, 13, 13, 0.8); 
-  font-size: 1.3rem; 
+  font-size: 1.2rem; 
   color: #fff; 
   background:#052962; 
   font-weight: 500;
   border: 1px solid rgb(92, 92, 90);
 }
 
+#button-indide-page{
+  box-shadow: 0px 5px 10px rgba(14, 13, 13, 0.8); 
+  font-size: 1.2rem; 
+  color: #fff; 
+  background:#052962; 
+  font-weight: 500;
+  border: 1px solid rgb(92, 92, 90);
+}
 
+#button-indide-page:hover{
+  background-color: #002233;
+  color: yellow;
+}
 
 
 
@@ -380,8 +402,9 @@
    border-style: none;
   text-align: left;
   background: var(--light);
-  border-bottom: 3px solid rgba(53, 128, 53, 0.534);
+  border-bottom: 4px solid rgba(122, 122, 122, 0.534);
   margin-top: 40px;
+  margin-bottom: 0;
 }
 
 #horizontal-lead h5{
@@ -407,45 +430,66 @@
 #horizontal-lead h6:hover{
   color: blue;
 }
-@media (max-width: 992px){
 
+@media (max-width: 1399.98px) {
+  #horizontal-lead p{
+    display: none;
+  }
+}
+@media (max-width: 1199.98px) {
+  #horizontal-lead h5{
+    font-size: 1.4rem;
+    line-height: normal;
+  }
+  #horizontal-lead h6{
+    margin-top: 0px;
+  }
+  #horizontal-lead p{
+    display: none;
+  }
+}
+@media (max-width: 991.98px) { 
   #horizontal-lead{
     margin-bottom: 0;
   }
-
- }
-@media (max-width: 768px){
-
+  #side-bar{
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
   #horizontal-lead{
     margin-bottom: 0;
   }
   #horizontal-lead h5{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: normal;
   }
   #horizontal-lead h6{
+    display: none;
   }
+
+  #side-bar{
+    display: none;
   }
-
-
-@media (max-width: 576px){
-
- #horizontal-lead{
-   margin-bottom: 0;
-   border-bottom: 3px solid #052962;
- }
-
- #horizontal-lead h5{
-   font-size: .8rem;
-   line-height: normal;
- }
- #horizontal-lead h6{
-   display: none;
- }
- #horizontal-lead p{
-   display: none;
- }
 }
+@media (max-width: 575.98px) { 
+  #horizontal-lead{
+    margin-bottom: 0;
+    border-bottom: 3px solid #052962;
+  }
+ 
+  #horizontal-lead h5{
+    font-size: 1.1rem;
+    line-height: normal;
+  }
+  #horizontal-lead h6{
+    display: none;
+  }
+  #horizontal-lead p{
+    display: none;
+  }
+}
+
 
 
 /* horizontal-short */
@@ -793,10 +837,10 @@
 }
 @media (max-width: 768px){
   #vertical-short-xs{
-    height: 150px;
+    height: 170px;
    }
   #vertical-short-xs .card-body h6{
-  font-size: .7rem;
+  font-size: .9rem;
   font-weight: 300;
  }
  #vertical-short-xs .card-body{
@@ -808,7 +852,7 @@
     height: 180px;
    }
   #vertical-short-xs .card-body h6{
-  font-size: .7rem;
+  font-size: .9rem;
   color: #000;
  }
  #vertical-short-xs .card-body{
@@ -1772,8 +1816,6 @@ text-decoration: none;
 .image--overlay{
   position: absolute;
   bottom: 30px;
-  left: 40px;
-  right: 50px;
   width: 100%;
   height: 100px;
   
@@ -1788,6 +1830,7 @@ text-decoration: none;
   font-size: 2.3em;
   font-weight: bold;
   line-height: normal;
+  padding: 0 30px;
 }
 
 .image--title:hover{
@@ -1820,16 +1863,16 @@ text-decoration: none;
 }
 @media (max-width: 991.98px) { 
   .image--lead{
-    width: 357px;
-    height: 208px;
+    width: 477px;
+    height: 288px;
   }
   .image--title{
-    font-size: 1.3em;
-    
+    font-size: 1.5em;
+    padding: 0 25px;
   } 
   .image--overlay{
     bottom:0px;
-    left: 20px;
+    left: 0px;
   }
 }
 @media (max-width: 767.98px) {
@@ -1839,11 +1882,12 @@ text-decoration: none;
   }
   .image--title{
     font-size: 1.5em;
+    padding: 0 25px;
     
   } 
   .image--overlay{
     bottom:0px;
-    left: 20px;
+    left: 0px;
   }
 }
 @media (max-width: 575.98px) { 
