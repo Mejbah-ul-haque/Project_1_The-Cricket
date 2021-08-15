@@ -218,7 +218,9 @@
     #special-1:hover .card-img-top{
       transform: scale(1.2);
     }
-
+    #overlay-long:hover .card-img-top{
+      transform: scale(1.2);
+    }
 
 
 
@@ -643,6 +645,102 @@
 }
 
 
+
+
+ /* vertical-exclusive */
+
+ #vertical-exclusive{
+  border-style: none;
+  background: #fff;
+  border: 3px solid #e4e4e4;
+  height: 310px;
+  padding-bottom: 0;
+}
+
+#vertical-exclusive h6{
+ font-size: 1.5rem;
+ font-weight:900;
+ line-height: normal;
+ color: rgb(31, 30, 30);
+}
+
+#vertical-exclusive h6:hover{
+  color: blue;
+}
+
+#vertical-exclusive .card-body{
+  background: var(--light);
+  padding-bottom: 0;
+}
+
+#vertical-exclusive a{
+ text-decoration: none;
+}
+
+#vertical-exclusive p:hover{
+ color: blue;
+}
+@media (max-width: 1366px){
+  #vertical-exclusive{
+  height: 275px;
+ }
+ #vertical-exclusive .card-body h6{
+  font-size: 1.3rem;
+ }
+
+}
+
+@media (max-width: 1024px){
+  #vertical-exclusive{
+  height: 210px;
+ }
+ #vertical-exclusive .card-body h6{
+  font-size: 1rem;
+ }
+}
+@media (max-width: 768px){
+  #vertical-exclusive{
+  height: 150px;
+ }
+ #vertical-exclusive .card-body{
+  padding: 10px 0 0 10px;
+  background: white;
+}
+ #vertical-exclusive .card-body h6{
+  font-size: .8rem;
+ }
+}
+@media (max-width: 576px){
+  #vertical-exclusive{
+  height: 320px;
+ }
+ #vertical-exclusive .card-body{
+   padding: 20px;
+   background: white;
+ }
+ #vertical-exclusive .card-body h6{
+  font-size: 1.4rem;
+  color: red;
+ }
+}
+
+@media (min-width: 1921px){
+  #vertical-exclusive{
+  height: 310px;
+ }
+ #vertical-exclusive .card-body{
+   padding: 20px;
+   background: white;
+ }
+ #vertical-exclusive .card-body h6{
+  font-size: 1.5rem;
+  color: red;
+ }
+}
+
+
+
+
 /* vertical-short-xs */
 
 #vertical-short-xs{
@@ -659,7 +757,7 @@
  font-size: .9rem;
  font-weight:600;
  line-height: normal;
- color: rgb(53, 52, 52);
+ color: rgb(31, 30, 30);
 }
 
 #vertical-short-xs h6:hover{
@@ -679,58 +777,58 @@
  color: blue;
 }
 
-@media (min-width: 1367px){
-  #vertical-short-xs{
-    height: 220px;
-  }
-}
 
-@media (max-width: 576px){
-  #vertical-short-xs{
-    height: 180px;
-   }
-  #vertical-short-xs .card-body h6{
-  font-size: .7rem;
- }
- #vertical-short-xs .card-body{
-   padding-bottom: 3px;
- }
+@media (max-width: 1366px){
+
 }
-@media (max-width: 768px){
-  #vertical-short-xs{
-    height: 180px;
+@media (max-width: 1024px){
+  #vertical-short-xs h6{
+    font-size: .9rem;
    }
-  #vertical-short-xs .card-body h6{
-  font-size: .8rem;
- }
- #vertical-short-xs .card-body{
-   padding-bottom: 3px;
- }
 }
 @media (max-width: 992px){
   #vertical-short-xs h6{
     font-size: .9rem;
    }
 }
-
-@media (max-width: 1024px){
-  #vertical-short-xs h6{
-    font-size: .9rem;
+@media (max-width: 768px){
+  #vertical-short-xs{
+    height: 150px;
    }
+  #vertical-short-xs .card-body h6{
+  font-size: .7rem;
+  font-weight: 300;
+ }
+ #vertical-short-xs .card-body{
+   padding: 10px 10px 0 10px;
+ }
 }
-@media (max-width: 1366px){
+@media (max-width: 576px){
+  #vertical-short-xs{
+    height: 180px;
+   }
+  #vertical-short-xs .card-body h6{
+  font-size: .7rem;
+  color: #000;
+ }
+ #vertical-short-xs .card-body{
+   padding-bottom: 3px;
+ }
+}
 
-}
 @media (min-width: 1367px){
   #vertical-short-xs h6{
     font-size: 1rem;
    }
 }
 
+@media (min-width: 1367px){
+  #vertical-short-xs{
+    height: 220px;
+  }
+}
 @media (min-width: 1921px){
 }
-
-
 
 /* vartical-short-extra */
 
@@ -1640,6 +1738,9 @@ text-decoration: none;
  #source-line{
    background-color: #052962;
  }
+ #source-line:hover{
+   background-color: #002233;
+ }
  #source-line p{
    color:white;
  }
@@ -1671,7 +1772,7 @@ text-decoration: none;
 .image--overlay{
   position: absolute;
   bottom: 30px;
-  left: 50px;
+  left: 40px;
   right: 50px;
   width: 100%;
   height: 100px;
@@ -1686,13 +1787,99 @@ text-decoration: none;
  .image--title{
   font-size: 2.3em;
   font-weight: bold;
-
+  line-height: normal;
 }
 
 .image--title:hover{
   color:yellow;
 }
 
+
+@media (max-width: 1399.98px) {
+  .image--lead{
+    width: 567px;
+    height: 348px;
+  }
+  .image--title{
+    font-size: 2em;
+    line-height: normal;
+  }
+}
+@media (max-width: 1199.98px) {
+  .image--lead{
+    width: 477px;
+    height: 288px;
+  }
+  .image--title{
+    font-size: 1.6em;
+    line-height: normal;
+  } 
+  .image--overlay{
+    bottom:0px;
+  }
+}
+@media (max-width: 991.98px) { 
+  .image--lead{
+    width: 357px;
+    height: 208px;
+  }
+  .image--title{
+    font-size: 1.3em;
+    
+  } 
+  .image--overlay{
+    bottom:0px;
+    left: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .image--lead{
+    width: 516px;
+    height: 300px;
+  }
+  .image--title{
+    font-size: 1.5em;
+    
+  } 
+  .image--overlay{
+    bottom:0px;
+    left: 20px;
+  }
+}
+@media (max-width: 575.98px) { 
+  .image--lead{
+    width: 457px;
+    height: 300px;
+  }
+  .image--title{
+    font-size: 1.5em;
+    
+  } 
+  .image--overlay{
+    padding: 10px;
+    bottom:0px;
+    left: 20px;
+
+  }
+}
+@media (max-width: 414px) { 
+  .image--lead{
+    width: 390px;
+    height: 230px;
+  }
+}
+@media (max-width: 375px) { 
+  .image--lead{
+    width: 352px;
+    height: 220px;
+  }
+}
+@media (max-width: 360px) { 
+  .image--lead{
+    width: 336px;
+    height: 220px;
+  }
+}
 
 /* woimen-cricket */
 
