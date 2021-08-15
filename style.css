@@ -1035,6 +1035,9 @@ text-decoration: none;
  }
 }
 
+
+
+
 /* Live Match */
 
 #top-lead{
@@ -1045,13 +1048,15 @@ text-decoration: none;
   box-shadow: 0px 0px 10px #000; 
 }
 
+
+
+
  /* carousel-box */
 
 .carousel-box {
   border-style: none;
   background: var(--dark);
 }
-
 
 .carousel-item .carousel-artile-background{
   height: 100%;
@@ -1128,6 +1133,26 @@ text-decoration: none;
   }
   #category-top-text:hover{
     color: blue;
+  }
+  #cetagory-headlines-1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: normal;
+  }
+  #cetagory-headlines-1:hover{
+    color: yellow;
+  }
+  #cetagory-text-1{
+    color: rgb(255, 237, 179);
+  }
+  #cetagory-text-1:hover{
+    color: yellow;
+  }
+  
+  #headlines-background-1{
+    background: #052962;
+    /* background: #005689; */
   }
 
   #lead-overlay-shadow{
@@ -1252,7 +1277,7 @@ text-decoration: none;
 
 }
 .update-series-name .story-name h5{
-  font-size: 1.2rem; font-weight: 600; line-height: normal; color: black;
+  font-size: 1.2rem; font-weight: 500; line-height: normal; color: black;
 }
 .update-series-name .story-name p{
   font-size: .9rem; color: rgb(102, 101, 101); line-height: normal; padding-bottom: 8px;
@@ -1277,7 +1302,7 @@ text-decoration: none;
  background-color: #052962;
 }
 .team-name h5{
-  font-size: 1.1rem; font-weight: 600; color: #fff; line-height: 25px; border-bottom: 1px solid #ccc ;
+  font-size: 1.1rem; font-weight: 500; color: #fff; line-height: 25px; border-bottom: 1px solid #ccc ;
 }
 .team-name h4{
   font-size: .9rem;
@@ -1366,7 +1391,7 @@ text-decoration: none;
 
 
 
-/* New Series */
+/* important  Series */
 
 #badge-item{
   background-color: yellow; border-radius: 1px solid black; color: black;
@@ -1692,21 +1717,7 @@ text-decoration: none;
   color: yellow;
 }
 
-#cetagory-headlines-1{
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 900;
-  line-height: normal;
-}
-#cetagory-headlines-1:hover{
-  color: yellow;
-}
-#cetagory-text-1{
-  color: rgb(255, 237, 179);
-}
-#cetagory-text-1:hover{
-  color: yellow;
-}
+
 
 #headlines-background-1{
   background: #052962;
