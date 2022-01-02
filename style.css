@@ -156,24 +156,6 @@ img {
   color: #000;
 }
 
-/* super-lead */
-
-#super-lead:hover {
-  background-color: #01263a;
-}
-
-#bg-body h5 {
-  color: #ccc;
-  font-size: 22px;
-}
-
-#img-bg-body {
-  height: 110px;
-  color: darkblue;
-  background: #ccc;
-  border-radius: 5px;
-}
-
 /* Transition */
 .image-div {
   overflow: hidden;
@@ -229,7 +211,7 @@ img {
 
 /* .source-line */
 
-.source-line a {
+.source-line a:link {
   text-decoration: none;
 }
 
@@ -237,12 +219,12 @@ img {
   /* border-top: 1px solid rgb(180, 179, 179);  */
   padding: 3px 0 0 0;
   font-size: 0.8rem;
-  font-weight:normal
-  color: rgba(254, 255, 255, 0.774);
+  font-weight: 500;
+  color: rgba(106, 160, 160, 0.774);
   text-align: center;
 }
 .category-name:hover {
-  color: red;
+  color: rgb(0, 204, 255);
 }
 .for-border {
   border-left: 1.5px solid red;
@@ -919,8 +901,6 @@ img {
 @media (max-width: 992px) {
 }
 
-
-
 /* Navigation */
 
 .main-nav {
@@ -1001,15 +981,6 @@ img {
     padding: 0.3rem;
     font-size: 0.9rem;
   }
-}
-
-/* Live Match */
-
-#top-lead {
-  background-color: #052962;
-}
-#top-lead:hover {
-  box-shadow: 0px 0px 10px #000;
 }
 
 /* carousel-box */
@@ -1217,147 +1188,6 @@ img {
   }
 }
 
-/* Others Sports */
-.soccer-stadium {
-  background-image: url(img/soccer-stadium.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-/* Update News Box */
-
-.update-series-name {
-  border-style: none;
-}
-.update-series-name .story-name {
-}
-.update-series-name .story-name h5 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  line-height: normal;
-  color: black;
-}
-.update-series-name .story-name p {
-  font-size: 0.9rem;
-  color: rgb(102, 101, 101);
-  line-height: normal;
-  padding-bottom: 8px;
-}
-
-.update-news-box {
-  border-style: none;
-  background: var(--dark);
-}
-.update-news-box a {
-  text-decoration: none;
-}
-.update-news-box-background {
-  height: 100%;
-  font-family: solaimanlipi;
-  background-color: var(--light);
-}
-.update-news-box-card {
-  border-style: none;
-}
-.team-name {
-  background-color: #052962;
-}
-.team-name h5 {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #fff;
-  line-height: 25px;
-  border-bottom: 1px solid #ccc;
-}
-.team-name h4 {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: rgb(252, 230, 170);
-  line-height: 22px;
-}
-.team-name h4:hover {
-  color: red;
-}
-.team-name p {
-  font-size: 0.9rem;
-  color: rgb(252, 189, 95);
-  line-height: normal;
-  padding-bottom: 0px;
-}
-.update-item-anchor h3 {
-  color: red;
-  font-size: 25px;
-  font-weight: 900;
-  line-height: normal;
-  padding: 15px 0 0 0;
-}
-.update-item-anchor h3:hover {
-  color: blue;
-}
-.update-news-img {
-  background-color: #fff;
-  overflow: hidden;
-}
-.source-line-update {
-  margin-top: 25px;
-}
-
-@media (max-width: 1024px) {
-  .team-name h5 {
-    font-size: 1rem;
-  }
-  .team-name p {
-    font-size: 0.8rem;
-    color: rgb(252, 189, 95);
-  }
-  .update-item-anchor h3 {
-    font-size: 23px;
-    padding: 10px 0 0 0;
-  }
-  .source-line-update {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
-}
-@media (max-width: 768px) {
-  .team-name h5 {
-    font-size: 1.1rem;
-  }
-  .team-name p {
-    font-size: 0.8rem;
-    color: rgb(252, 189, 95);
-  }
-  .update-item-anchor h3 {
-    font-size: 23px;
-  }
-  .source-line-update {
-    display: none;
-  }
-}
-
-@media (max-width: 576px) {
-  .update-series-name .story-name h5 {
-    font-size: 1rem;
-  }
-  .team-name h5 {
-    font-size: 1rem;
-  }
-  .team-name p {
-    font-size: 0.8rem;
-    color: rgb(252, 189, 95);
-  }
-  .update-item-anchor h3 {
-    font-size: 20px;
-  }
-  .source-line-update {
-    display: none;
-  }
-}
-
 /* important  Series */
 
 #badge-item {
@@ -1508,7 +1338,7 @@ img {
   padding: 50px;
   box-shadow: 0 1px 5px #021021c0;
 }
-.inside-pic p{
+.inside-pic p {
   color: rgb(173, 172, 172);
   line-height: normal;
 }
@@ -1700,60 +1530,6 @@ img {
     font-size: 0.8rem;
     padding: 5px 0 5px 0;
   }
-}
-
-/* Frirst Lead */
-
-#img-overlay-shadow {
-  /* mask-image: url(img/shakib.png);
-  -webkit-mask-image: url(img/shakib.png); */
-  mask-image: linear-gradient(to top, transparent 5%, black 50%);
-  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50%);
-}
-
-#img-shadow1 {
-  mask-image: linear-gradient(to top, transparent 20%, black 75%);
-  -webkit-mask-image: linear-gradient(to top, transparent 20%, black 75%);
-}
-
-#first-lead {
-  border-style: none;
-  background-color: #052252;
-}
-
-
-#first-lead a {
-  text-decoration: none;
-}
-.overlay-long {
-  padding-top: 70px;
-}
-
-#first-lead h4 {
-  font-size: 1.1em;
-  color: white;
-  font-weight: 500;
-  line-height: normal;
-}
-#first-lead h4:hover {
-  color: yellow;
-}
-
-#first-lead h2 {
-  font-size: 2.2em;
-  color: white;
-  line-height: 1.5;
-}
-
-#first-lead h2:hover {
-  color: yellow;
-}
-
-#first-lead p {
-  color: white;
-}
-#first-lead p:hover {
-  color: yellow;
 }
 
 /* Overlay long */
@@ -1955,38 +1731,9 @@ img {
   }
 }
 
-/* woimen-cricket */
-
-.woimen-cricket {
-  background-image: url(img/women.jpg);
-  background-size: 2500px;
-  background-repeat: no-repeat;
-  background-position: top;
-  top: 0px;
-}
-
-.women-headlines {
-  height: px;
-}
-
-.women-headlines a {
-  text-decoration: none;
-}
-
-.women-headlines {
-  font-size: 40px;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 2px 2px 5px black;
-}
-.women-headlines h4:hover {
-  background-color: #01263a;
-  color: yellow;
-}
-
 /* Special Feature */
 
-#special-feature-headlines{
+#special-feature-headlines {
   box-shadow: 0 1px 5px #021021c0;
 }
 
@@ -2000,7 +1747,7 @@ img {
 #special-feature-headlines h6:hover {
   color: greenyellow;
 }
-#special-feature-headlines-green{
+#special-feature-headlines-green {
   box-shadow: 0 1px 5px #021021c0;
 }
 #special-feature-headlines-green h6 {
@@ -2009,7 +1756,6 @@ img {
   line-height: normal;
   color: rgb(113, 252, 113);
   border-bottom: 1px solid rgb(158, 158, 158);
-  
 }
 #special-feature-headlines-green h6:hover {
   color: greenyellow;
